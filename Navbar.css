@@ -1,0 +1,47 @@
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: #538e9d; 
+  transition: background-color 0.3s ease; 
+  z-index: 10;
+}
+
+.navbar.scrolled {
+  background-color: #480380; 
+  color: #535589;
+}
+
+.navbar.scrolled-1 {
+  background-color: #9d38bd;
+}
+
+.navbar.scrolled-2 { 
+  background-color: #e4efc3;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e4efc3;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #09f463;
+}
